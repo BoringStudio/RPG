@@ -2,5 +2,45 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputAxis.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Core\Stuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{7f1eb6d2-3df0-40e3-840d-b9cab3d689e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Input">
+      <UniqueIdentifier>{4e633c97-16f5-4d1a-ae6f-22347aa1a49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Stuff">
+      <UniqueIdentifier>{aedfbefa-e4c0-4673-b19c-1392dfd3882a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Scene">
+      <UniqueIdentifier>{894c871b-cb30-4d44-8f65-4c0edd15e81c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ECS">
+      <UniqueIdentifier>{4959df99-097f-49a8-96a9-904b5a8a350c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputManager.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputAxis.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Core\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
